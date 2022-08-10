@@ -12,6 +12,11 @@ public class Main {
         fbNumbers.add(whiz);
 
         FizzBuzz fbGame = new FizzBuzz(fbNumbers, 300);
-        fbGame.play();
+        FizzBuzzV1 fbV1Game = new FizzBuzzV1();
+        //fbGame.play();
+        fbV1Game.play();
+        Palindrome palindrome = new Palindrome();
+        System.out.println(palindrome.checkPalindromeV1("apa"));
+        System.out.println(palindrome.checkPalindromeV2("apa"));
     }
 }
