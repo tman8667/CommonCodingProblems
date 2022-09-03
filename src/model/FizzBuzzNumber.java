@@ -1,3 +1,5 @@
+package model;
+
 public class FizzBuzzNumber {
     private int number;
     private String word;

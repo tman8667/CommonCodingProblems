@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.FizzBuzzUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1d711" class="javax.swing.JTextPane" binding="codePane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono Medium" size="12" style="0"/>
+          <text value="public void play() {&#10;    String output = &quot;&quot;;&#10;    for(int i = 1; i &lt;= maxNumber; i++) {&#10;        for(FizzBuzzNumber x: numbersList) {&#10;            if(i % x.getNumber() == 0) {&#10;                output += x.getWord();&#10;            }&#10;        }&#10;        if(output.length() == 0) {                 &#10;            System.out.println(i);&#10;        }&#10;        else {&#10;            System.out.println(output);&#10;        }&#10;        output = &quot;&quot;;&#10;    }     &#10;}"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

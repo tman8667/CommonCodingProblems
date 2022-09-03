@@ -1,3 +1,5 @@
+package model;
+
 public class Palindrome {
 
     public boolean checkPalindromeV1(String input) {
